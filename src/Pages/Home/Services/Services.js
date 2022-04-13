@@ -3,7 +3,7 @@ import { Card, CardGroup } from 'react-bootstrap';
 
 const Services = () => {
     return (
-        <section>
+        <section id='services'>
             <h1>My Services</h1>
             <article>
                 <CardGroup>

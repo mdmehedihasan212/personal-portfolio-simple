@@ -3,7 +3,7 @@ import photo from '../../Assets/profile-pic/profile-pic-2.png';
 
 const About = () => {
     return (
-        <section>
+        <section id='aboutus'>
             <article className='d-flex justify-content-evenly align-items-center'>
                 <div>
                     <img src={photo} alt="img-2" />

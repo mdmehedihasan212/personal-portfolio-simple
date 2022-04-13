@@ -9,13 +9,13 @@ import Services from '../Services/Services';
 const Home = () => {
     return (
         <>
-            <Introduction></Introduction>
+            {/* <Introduction></Introduction>
             <Contact></Contact>
             <Services></Services>
             <Experience></Experience>
             <EducationSkills></EducationSkills>
             <Family></Family>
-            <Contact></Contact>
+            <Contact></Contact> */}
         </>
     );
 };

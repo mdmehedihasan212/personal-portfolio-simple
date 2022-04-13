@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contact = () => {
     return (
-        <section className='d-flex justify-content-evenly align-items-center'>
+        <section id='contact' className='d-flex justify-content-evenly align-items-center'>
             <article>
                 <h1>Contact Us</h1>
                 <p>01741-445482</p>

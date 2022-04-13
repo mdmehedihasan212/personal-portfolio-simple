@@ -3,7 +3,7 @@ import { ProgressBar } from 'react-bootstrap';
 
 const EducationSkills = () => {
     return (
-        <section>
+        <section id='skills'>
             <article>
                 <div className="card border-primary mb-3">
                     <div className="card border-dark mb-3">

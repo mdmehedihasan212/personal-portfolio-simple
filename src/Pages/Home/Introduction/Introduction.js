@@ -3,7 +3,7 @@ import photo from '../../../Assets/profile-pic/profile-pic-1.png';
 
 const Introduction = () => {
     return (
-        <section className='d-flex justify-content-evenly align-items-center'>
+        <section id='home' className='d-flex justify-content-evenly align-items-center'>
             <article>
                 <h1>Web developer</h1>
                 <h2>Md Mehedi Hasan</h2>

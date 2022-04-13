@@ -6,7 +6,7 @@ import photo3 from '../../../Assets/profile-pic/profile-pic-3.png';
 
 const Family = () => {
     return (
-        <section>
+        <section id='family'>
             <Carousel>
                 <Carousel.Item>
                     <img

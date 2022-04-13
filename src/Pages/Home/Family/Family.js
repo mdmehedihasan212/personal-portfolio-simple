@@ -1,5 +1,8 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
+import photo1 from '../../../Assets/profile-pic/profile-pic-1.png';
+import photo2 from '../../../Assets/profile-pic/profile-pic-2.png';
+import photo3 from '../../../Assets/profile-pic/profile-pic-3.png';
 
 const Family = () => {
     return (
@@ -8,7 +11,7 @@ const Family = () => {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src="holder.js/800x400?text=First slide&bg=373940"
+                        src={photo1}
                         alt="First slide"
                     />
                     <Carousel.Caption>
@@ -19,7 +22,7 @@ const Family = () => {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src="holder.js/800x400?text=Second slide&bg=282c34"
+                        src={photo2}
                         alt="Second slide"
                     />
 
@@ -31,7 +34,7 @@ const Family = () => {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src="holder.js/800x400?text=Third slide&bg=20232a"
+                        src={photo3}
                         alt="Third slide"
                     />
 

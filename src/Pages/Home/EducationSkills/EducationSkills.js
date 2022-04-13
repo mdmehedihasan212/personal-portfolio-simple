@@ -5,8 +5,8 @@ const EducationSkills = () => {
     return (
         <section>
             <article>
-                <div className="card border-primary mb-3" style={{ 'max-width': '18rem' }}>
-                    <div className="card border-dark mb-3" style={{ 'max-width': '18rem' }}>
+                <div className="card border-primary mb-3">
+                    <div className="card border-dark mb-3">
                         <div className="card-header">Header</div>
                         <div className="card-body text-dark">
                             <h5 className="card-title">Dark card title</h5>

@@ -18,6 +18,7 @@ const Contact = () => {
                     <input type="text" name="email" id="" placeholder='Email' />
                     <input type="text" name="subject" id="" placeholder='Subject' />
                 </div>
+                <input type="text" name="message" id="" placeholder='Message*' />
                 <button>Send Message</button>
             </article>
         </section>

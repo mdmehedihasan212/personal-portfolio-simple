@@ -3,8 +3,8 @@ import photo from '../../../Assets/profile-pic/profile-pic (46).png';
 
 const Introduction = () => {
     return (
-        <section id='home' className='banner-section d-flex justify-content-around align-items-center p-3 mt-2 mb-5 text-dark'>
-            <article className='text-section w-full mx-auto'>
+        <section id='home' className='d-flex justify-content-around align-items-center p-3 mt-2 mb-5 text-dark'>
+            <article className='w-full mx-auto'>
                 <span className='fs-5 text-uppercase mt-2'>Hi, I'm a Jnr. Web developer</span>
                 <h1 className='fs-1 fw-bolder text-uppercase mt-2'>Md Mehedi Hasan</h1>
                 <p className='fs-4 mt-2'>Barishal, Bangladesh</p>

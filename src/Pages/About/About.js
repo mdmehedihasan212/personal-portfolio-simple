@@ -1,34 +1,31 @@
 import React from 'react';
+import { TbCircleDotted } from 'react-icons/tb';
 
 const About = () => {
     return (
-        <section id='aboutus'>
-            <article className='d-flex justify-content-evenly align-items-center'>
+        <section id='about-me' className='my-5'>
+            <article className='text-center'>
                 <div>
-                    <h1>About Us</h1>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid tempora ad et pariatur ipsam soluta quod, blanditiis molestias repellat minima.
-                        <br />
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur eaque velit officia eum reiciendis inventore molestiae repellendus culpa esse voluptates.
-                    </p>
+                    <h1>About Me</h1>
                 </div>
             </article>
-
-            <article className='d-flex justify-content-evenly align-items-center'>
-                <h3>Personal Details</h3>
-                <div>
-                    <p>Name: Md Mehedi Hasan</p>
-                    <p>Age: 25 Years</p>
-                    <p>Nationality: Bangladeshi</p>
-                    <p>Freelance: Available</p>
+            <article className='d-flex justify-content-around align-content-center'>
+                <div style={{ marginLeft: '150px' }}>
+                    <h4> <TbCircleDotted /> Name: Md Mehedi Hasan</h4>
+                    <h4> <TbCircleDotted /> Age: 25 Years</h4>
+                    <h4> <TbCircleDotted /> Nationality: Bangladeshi</h4>
+                    <h4> <TbCircleDotted /> Freelance: Available</h4>
                 </div>
-                <div>
-                    <p>Address: Barishal Sadar, Bangladesh</p>
-                    <p>Phone: 01741-445482</p>
-                    <p>Facebook: mdmehedihasan384</p>
-                    <p>E-mail: mdmehedihasan384@gmail.com</p>
+                <div style={{ marginLeft: '300px' }}>
+                    <h4> <TbCircleDotted /> Address: Barishal Sadar, Bangladesh</h4>
+                    <h4> <TbCircleDotted /> Phone: 01741-445482</h4>
+                    <h4> <TbCircleDotted /> Facebook: mdmehedihasan384</h4>
+                    <h4> <TbCircleDotted /> E-mail: mdmehedihasan384@gmail.com</h4>
                 </div>
-                <button>Download CV</button>
             </article>
+            <div class="d-flex justify-content-center align-items-center">
+                <button class="btn btn-primary px-5 py-3 mt-2" type="button">Download Resume</button>
+            </div>
         </section>
     );
 };

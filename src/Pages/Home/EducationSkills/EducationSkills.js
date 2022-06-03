@@ -3,26 +3,22 @@ import { ProgressBar } from 'react-bootstrap';
 
 const EducationSkills = () => {
     return (
-        <section id='skills'>
-            <article>
-                <div className="card border-primary mb-3">
-                    <div className="card border-dark mb-3">
-                        <div className="card-header">Header</div>
-                        <div className="card-body text-dark">
-                            <h5 className="card-title">Dark card title</h5>
-                            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
+        <section id='skills' className='my-5'>
+            <h1 className='text-center mt-5'>Education & Skills</h1>
+            <div className='d-flex justify-content-center align-content-center'>
+                <article>
+                    <div>
+
                     </div>
-                </div>
-            </article>
-            <article>
-                <div>
-                    <ProgressBar striped variant="success" now={40} />
-                    <ProgressBar striped variant="info" now={20} />
-                    <ProgressBar striped variant="warning" now={60} />
-                    <ProgressBar striped variant="danger" now={80} />
-                </div>
-            </article>
+                </article>
+                <article className='w-50'>
+                    <div className='d-flex justify-content-between align-items-center px-2 mb-2'>
+                        <h5>Html</h5>
+                        <h5>80%</h5>
+                    </div>
+                    <ProgressBar now={80} />
+                </article>
+            </div>
         </section>
     );
 };

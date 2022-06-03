@@ -3,10 +3,11 @@ import { TbCircleDotted } from 'react-icons/tb';
 
 const About = () => {
     return (
-        <section id='about-me' className='my-5'>
+        <section id='about-me'>
             <article className='text-center'>
                 <div>
-                    <h1>About Me</h1>
+                    <h1 className='mb-5'>About Me</h1>
+                    <p className='w-75 mx-auto mb-4 fs-5'>I'm a web developer with a passion for web design. I enjoy developing simple, clean and slick websites that provide real value to the end user. Thousands of clients have procured exceptional results while working with me. Delivering work within time and budget which meets client;s requirements is our moto.</p>
                 </div>
             </article>
             <article className='d-flex justify-content-around align-content-center'>

@@ -2,7 +2,6 @@ import React from 'react';
 import { Nav, Navbar } from 'react-bootstrap';
 import './Header.css';
 
-
 const Header = () => {
     return (
         <>

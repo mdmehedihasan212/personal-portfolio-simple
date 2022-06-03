@@ -1,13 +1,9 @@
 import React from 'react';
-import photo from '../../Assets/profile-pic/profile-pic-2.png';
 
 const About = () => {
     return (
         <section id='aboutus'>
             <article className='d-flex justify-content-evenly align-items-center'>
-                <div>
-                    <img src={photo} alt="img-2" />
-                </div>
                 <div>
                     <h1>About Us</h1>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid tempora ad et pariatur ipsam soluta quod, blanditiis molestias repellat minima.

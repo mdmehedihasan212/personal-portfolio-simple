@@ -1,95 +1,65 @@
 import React from 'react';
 import './Projects.css';
-import project from '../../../src/Assets/profile-pic/profile-pic (46).png';
-import { Button, Card, CardGroup, Modal } from 'react-bootstrap';
+import electro from '../../../src/Assets/project-img/electro-manufacturing.png';
+import phone from '../../../src/Assets/project-img/equipment-warehouse.png';
+import wedding from '../../../src/Assets/project-img/weadding.png';
+import constriction from '../../../src/Assets/project-img/under-constraction.png';
+import { Card, CardGroup } from 'react-bootstrap';
 
 const Projects = () => {
-    const [modalShow, setModalShow] = React.useState(false);
-
-    function MyVerticallyCenteredModal(props) {
-        return (
-            <Modal
-                {...props}
-                size="lg"
-                aria-labelledby="contained-modal-title-vcenter"
-                centered
-            >
-                <Modal.Header closeButton>
-                    <Modal.Title id="contained-modal-title-vcenter">
-                        Modal heading
-                    </Modal.Title>
-                </Modal.Header>
-                <Modal.Body>
-                    <h4>Centered Modal</h4>
-                    <p>
-                        Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
-                        dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac
-                        consectetur ac, vestibulum at eros.
-                    </p>
-                </Modal.Body>
-                <Modal.Footer>
-                    <Button onClick={props.onHide}>Close</Button>
-                </Modal.Footer>
-            </Modal>
-        );
-    }
-
     return (
-        <section id='projects' className='my-5 px-5'>
+        <section className='my-5 px-5'>
             <h1 className='text-center my-5'>Projects</h1>
             <article>
                 <CardGroup className='gap-4'>
-                    <Card className='border border-primary container'>
-                        <img variant="top" src={project} className='w-50 mx-auto image' alt='img' />
+                    <Card className='container'>
+                        <img variant="top" src={electro} className='w-100 mx-auto image' alt='img' style={{ height: '300px' }} />
                         <div className='middle'>
-                            <p className='text'>Go Live</p>
+                            <a href="https://electro-manufacturing.web.app/">
+                                <button className='text'>Go Live</button>
+                            </a>
                         </div>
                     </Card>
-                    <Card className='border border-primary container'>
-                        <img variant="top" src={project} className='w-50 mx-auto image' alt='img' />
+                    <Card className='container'>
+                        <img variant="top" src={phone} className='w-100 mx-auto image' alt='img' style={{ height: '300px' }} />
                         <div className='middle'>
-                            <p className='text'>Go Live</p>
+                            <a href="https://phone-garage-d9a85.web.app/">
+                                <button className='text'>Go Live</button>
+                            </a>
                         </div>
                     </Card>
-                    <Card className='border border-primary container'>
-                        <img variant="top" src={project} className='w-50 mx-auto image' alt='img' />
+                    <Card className='container'>
+                        <img variant="top" src={wedding} className='w-100 mx-auto image' alt='img' style={{ height: '300px' }} />
                         <div className='middle'>
-                            <p className='text'>Go Live</p>
+                            <a href="https://wedding-photography-4229f.web.app/">
+                                <button className='text'>Go Live</button>
+                            </a>
                         </div>
                     </Card>
                 </CardGroup>
             </article>
             <article className='mt-4'>
                 <CardGroup className='gap-4'>
-                    <Card className='border border-primary container'>
-                        <img variant="top" src={project} className='w-50 mx-auto image' alt='img' />
+                    <Card className='container'>
+                        <img variant="top" src={constriction} className='w-100 mx-auto image' alt='img' style={{ height: '300px' }} />
                         <div className='middle'>
-                            <p className='text'>Go Live</p>
+                            <button className='text'>Go Live</button>
                         </div>
                     </Card>
-                    <Card className='border border-primary container'>
-                        <img variant="top" src={project} className='w-50 mx-auto image' alt='img' />
+                    <Card className='container'>
+                        <img variant="top" src={constriction} className='w-100 mx-auto image' alt='img' style={{ height: '300px' }} />
                         <div className='middle'>
-                            <p className='text'>Go Live</p>
+                            <button className='text'>Go Live</button>
                         </div>
                     </Card>
-                    <Card className='border border-primary container'>
-                        <img variant="top" src={project} className='w-50 mx-auto image' alt='img' />
+                    <Card className='container'>
+                        <img variant="top" src={constriction} className='w-100 mx-auto image' alt='img' style={{ height: '300px' }} />
                         <div className='middle'>
-
-                            <Button className='text' variant="primary" onClick={() => setModalShow(true)}>
-                                Go Live
-                            </Button>
+                            <button className='text'>Go Live</button>
                         </div>
                     </Card>
                 </CardGroup>
             </article>
-
-
-            <MyVerticallyCenteredModal
-                show={modalShow}
-                onHide={() => setModalShow(false)}
-            />
         </section>
     );
 };

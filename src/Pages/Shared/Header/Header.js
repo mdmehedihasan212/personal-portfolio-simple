@@ -11,10 +11,8 @@ const Header = () => {
                     <Nav className='navbar ms-auto text-uppercase'>
                         <Nav.Link href='#home'>Home</Nav.Link>
                         <Nav.Link href="#about-me">About Us</Nav.Link>
-                        <Nav.Link href="#services">Services</Nav.Link>
-                        <Nav.Link href="#experience">Experience</Nav.Link>
                         <Nav.Link href="#skills">Skills</Nav.Link>
-                        <Nav.Link href="#contact">Contact</Nav.Link>
+                        <Nav.Link href="#projects">Projects</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>

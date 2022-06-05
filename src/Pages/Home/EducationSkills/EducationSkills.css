@@ -1,0 +1,17 @@
+@media screen and (max-width:576px) {
+    .section-title {
+        margin-bottom: 15px !important;
+    }
+
+    .skill-section {
+        flex-direction: column;
+    }
+
+    .progress-row {
+        width: 100% !important;
+    }
+
+    .progress-row h5 {
+        font-size: 0.9em;
+    }
+}

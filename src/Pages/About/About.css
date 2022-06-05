@@ -1,0 +1,20 @@
+@media screen and (max-width:576px) {
+    .about-intro {
+        width: 100% !important;
+    }
+
+    .addition-info {
+        flex-direction: column;
+        margin: 0 5px !important;
+        gap: 0 !important;
+        text-align: center !important;
+    }
+
+    .addition-info h5 {
+        font-size: 17px;
+    }
+
+    .resume-button {
+        padding: 10px !important;
+    }
+}

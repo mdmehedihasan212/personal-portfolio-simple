@@ -12,9 +12,9 @@
         font-size: 0.8em !important;
     }
 
-    .intro-text button {
-        margin: 0 auto;
-        padding: 10px !important;
+    .intro-text a {
+        margin: 0 auto !important;
+        display: none;
     }
 
     .intro-img {

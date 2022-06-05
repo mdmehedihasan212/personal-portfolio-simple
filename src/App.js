@@ -1,4 +1,5 @@
 import './App.css';
+import 'animate.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from './Pages/Shared/Footer/Footer';
 import Header from './Pages/Shared/Header/Header';

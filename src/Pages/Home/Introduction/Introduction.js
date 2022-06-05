@@ -17,7 +17,7 @@ const Introduction = () => {
 
     return (
         <section id='home' className='introduction d-flex justify-content-around align-items-center p-3 my-5 text-dark'>
-            <article className='intro-text w-full mx-auto'>
+            <article className='intro-text w-full mx-auto animate__animated animate__slideInLeft animate__slow'>
                 <span className='fs-5 text-uppercase mt-2'>Hi, I'm a Jnr. Web developer</span>
                 <animated.h1 style={props} className='fs-1 fw-bolder text-uppercase mt-2'>Md Mehedi Hasan</animated.h1>
                 {/* <h1 className='fs-1 fw-bolder text-uppercase mt-2'>Md Mehedi Hasan</h1> */}
@@ -28,7 +28,7 @@ const Introduction = () => {
                 </div>
             </article>
             <article >
-                <img className='intro-img w-75 mx-auto d-flex justify-content-center border border-5 rounded-circle' src={photo} alt="img-1" />
+                <img className='intro-img w-75 mx-auto d-flex justify-content-center border border-5 rounded-circle animate__animated animate__zoomIn animate__slow' src={photo} alt="img-1" />
             </article>
         </section>
     );

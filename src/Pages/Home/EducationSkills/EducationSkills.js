@@ -1,10 +1,17 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './EducationSkills.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import { ProgressBar } from 'react-bootstrap';
 
 const EducationSkills = () => {
+
+    useEffect(() => {
+        AOS.init({ duration: 2000 });
+    }, [])
+
     return (
-        <section id='skills' className='my-5 px-5'>
+        <section data-aos="fade-up" id='skills' className='my-5 px-5'>
             <h1 className='section-title text-center my-5'>Skills</h1>
             <article className='skill-section w-100 mx-auto text-center d-flex align-items-center justify-content-between'>
                 <div className='progress-row w-50 px-5'>

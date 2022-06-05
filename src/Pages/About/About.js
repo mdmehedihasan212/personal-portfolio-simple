@@ -1,11 +1,18 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './About.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import resume from './Md Mehedi Hasan_Web Development_Resume_22 - Google Docs.pdf';
 import { Card } from 'react-bootstrap';
 
 const About = () => {
+
+    useEffect(() => {
+        AOS.init({ duration: 2000 });
+    }, [])
+
     return (
-        <section id='about-me' className='px-5 my-5 position-relative'>
+        <section data-aos="fade-up" id='about-me' className='px-5 my-5 position-relative'>
             <h1 className='text-center'>About Me</h1>
             <Card className='border-0'>
                 <Card.Body>

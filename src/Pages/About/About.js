@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import './About.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import resume from './Md Mehedi Hasan_Web Development_Resume_22 - Google Docs.pdf';
+import resume from './Md-Mehedi-Hasan-Resume-2022.pdf';
 import { Card } from 'react-bootstrap';
 
 const About = () => {
@@ -26,7 +26,23 @@ const About = () => {
                         </div>
                         <div>
                             <span>Phone:</span>
-                            <h5 className='cursor-pointer'>01741-445482</h5>
+                            <h5>01741-445482</h5>
+                        </div>
+                        <div>
+                            <span>Github:</span>
+                            <a href="https://github.com/mdmehedihasan212">
+                                <h5 className='text-decoration-underline text-black'>https://github.com/mdmehedihasan212</h5>
+                            </a>
+                        </div>
+                    </Card.Text>
+                    <Card.Text className='addition-info d-flex justify-content-center align-items-center my-5 gap-5'>
+                        <div>
+                            <span>Stack overflow:</span>
+                            <h5>https://stackoverflow.com/users/18265138/md-mehedi-hasan</h5>
+                        </div>
+                        <div>
+                            <span>Linkedin:</span>
+                            <h5>01741-445482</h5>
                         </div>
                         <div>
                             <span>Github:</span>

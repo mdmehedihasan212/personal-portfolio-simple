@@ -6,15 +6,11 @@
 
     .intro-text {
         text-align: center;
+        margin: 0 auto !important;
     }
 
     .intro-text span {
         font-size: 0.8em !important;
-    }
-
-    .intro-text a {
-        margin: 0 auto !important;
-        display: none;
     }
 
     .intro-img {

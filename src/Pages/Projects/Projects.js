@@ -5,6 +5,7 @@ import 'aos/dist/aos.css';
 import electro from '../../../src/Assets/project-img/electro-manufacturing.png';
 import phone from '../../../src/Assets/project-img/equipment-warehouse.png';
 import wedding from '../../../src/Assets/project-img/weadding.png';
+import fakebook from '../../../src/Assets/project-img/fakebook.png';
 import constriction from '../../../src/Assets/project-img/under-constraction.png';
 import { Card, CardGroup } from 'react-bootstrap';
 
@@ -48,9 +49,11 @@ const Projects = () => {
             <article className='mt-4'>
                 <CardGroup className='gap-4'>
                     <Card data-aos="zoom-in" className='container'>
-                        <img variant="top" src={constriction} className='w-100 mx-auto image' alt='img' style={{ height: '300px' }} />
+                        <img variant="top" src={fakebook} className='w-100 mx-auto image' alt='img' style={{ height: '300px' }} />
                         <div className='middle'>
-                            <button className='text'>Go Live</button>
+                            <a href="https://fakebook-social.web.app/">
+                                <button className='text'>Go Live</button>
+                            </a>
                         </div>
                     </Card>
                     <Card data-aos="zoom-in" className='container'>

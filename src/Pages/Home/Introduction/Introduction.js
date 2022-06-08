@@ -29,7 +29,7 @@ const Introduction = () => {
                 <animated.h1 style={props} className='fs-1 fw-bolder text-uppercase mt-2'>Md Mehedi Hasan</animated.h1>
                 <p className='fs-4 mt-2'>Barishal, Bangladesh</p>
                 <div className='intro-text w-50'>
-                    <Nav.Link href="#projects" className='btn btn-primary p-2 mt-2 text-white'>Project</Nav.Link>
+                    <Nav.Link href="#projects" className='btn btn-primary text-white'>Project</Nav.Link>
                 </div>
             </article>
             <article data-aos="zoom-in">
